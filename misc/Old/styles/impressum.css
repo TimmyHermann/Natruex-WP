@@ -1,0 +1,36 @@
+.impressum-ueberschrift{
+	/*statt die Position absolut zu setzen ist es sauberer wenn man dem element einen Margin gibt*/
+	margin-top: 15vh;
+	top: 10%;
+	font-size: 100%;
+	text-decoration: underline; 
+	font-weight: bold;
+}
+
+.anschrift{
+	/*margin-top: 12%;*/
+	float: left;
+}
+@media(max-width:414px){
+	.anschrift{
+	margin-top: 40%;
+	}	
+}
+
+.projekt {
+	float: right;
+	/*margin-top: 12%;*/
+}
+@media(max-width:414px){
+	.projekt{
+	margin-top: 10px;
+	float: left;
+	/*padding-bottom: 50%;*/
+	}	
+}
+
+#impressum-wrapper {
+	width: 80%;
+	margin: 1% auto 1% auto;
+	
+}

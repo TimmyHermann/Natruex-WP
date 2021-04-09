@@ -1,0 +1,54 @@
+html {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(53, 171, 65);
+}
+
+main {
+  margin: 0 10%;
+  font-size: 120%;
+  line-height: 120%;
+}
+
+hr {
+  margin: 50px 0;
+  color: rgb(53, 171, 65);
+}
+
+/* header Position und Farbe */
+
+body {
+  background-image: url("../images/background.webp");
+  background-color: white;
+  color: rgb(53, 171, 65);
+  margin: 0;
+  margin-left: 0;
+}
+  
+@font-face {
+    font-family: 'brightsideregular';
+    src: url('brightside-regular1-webfont.woff2') format('woff2'),
+         url('brightside-regular1-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'beautysalon_scriptregular';
+    src: url('beautysalonscript-regular-webfont.woff2') format('woff2'),
+         url('beautysalonscript-regular-webfont.woff') format('woff');
+}
+
+h1 {
+	font-family: 'brightsideregular';
+}
+
+h2 {
+	font-family: 'brightsideregular';
+}
+
+h3 {
+	font-family: 'brightsideregular';
+	font-size: 150%;
+}
+
+#header-logo{
+	font-family: 'beautysalon_scriptregular';
+}

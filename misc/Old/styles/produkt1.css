@@ -1,0 +1,58 @@
+/* Das Produkt*/
+
+.produkt1 {
+    margin-top: 20vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+  #produkttext1 {
+    /*min-width: 480px; /* Wichtig: Die Werte height und width sollten immer den werten des danebenstehenden Produktbildes entsprechen*/
+    width: 598px;
+    margin: 20px
+  }
+  @media only screen and (max-width: 800px) {
+    #produkttext1 {
+      width: 400px;
+    }
+  }
+  @media only screen and (max-width: 450px) {
+    #produkttext1 {
+      width: 300px;
+    }
+  }
+  
+  #produktbild1 img {
+    /*min-width: 480px; /*Für Mobil ändern*/
+    overflow: hidden;
+    border-radius: 0em 3em;
+    box-shadow: 5px 5px 5px #333;
+    width: 598px;
+    height: 424px;
+  }
+  @media only screen and (max-width: 800px) {
+    #produktbild1 img {
+      width: 400px;
+      height: 284px;
+    }
+  }
+  @media only screen and (max-width: 450px) {
+    #produktbild1 img {
+      width: 300px;
+      height: 213px;
+    }
+  }
+  
+  .produktbox1 {
+    width: 598px;
+  }
+  @media only screen and (max-width: 800px) {
+    .produktbox1 {
+      width: 400px;
+    }
+  }
+  @media only screen and (max-width: 450px) {
+    .produktbox1 {
+      width: 300px;
+    }
+  }
